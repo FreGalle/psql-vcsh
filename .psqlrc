@@ -1,0 +1,29 @@
+\set QUIET 1
+
+\x auto
+
+\set PROMPT1 '%[%033[1m%]%M %n@%/%R%[%033[0m%]%x%# '
+\set PROMPT2 '[more] %R > '
+
+\set HISTFILE ~/.psql_history- :DBNAME
+\set HISTCONTROL ignoredups
+\set COMP_KEYWORD_CASE lower
+\set VERBOSITY verbose
+\set ON_ERROR_STOP on
+\set ON_ERROR_ROLLBACK interactive
+
+\pset null '⌑'
+\pset linestyle unicode
+\pset unicode_border_linestyle single
+\pset unicode_column_linestyle single
+\pset unicode_header_linestyle double
+
+set intervalstyle to 'postgres_verbose';
+
+\setenv PAGER less
+\setenv LESS '-iMFXSx4R'
+
+\unset QUIET
+
+
+
