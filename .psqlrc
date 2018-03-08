@@ -5,7 +5,7 @@
 \set PROMPT1 '%[%033[1m%]%M %n@%/%R%[%033[0m%]%x%# '
 \set PROMPT2 '[more] %R > '
 
-\set HISTFILE ~/.psql_history- :DBNAME
+\set HISTFILE ~/.psql_history/ :DBNAME
 \set HISTCONTROL ignoredups
 \set COMP_KEYWORD_CASE lower
 \set VERBOSITY verbose
