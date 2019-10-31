@@ -1,0 +1,4 @@
+*
+!/.psqlrc
+!/.gitignore.d
+!/.gitignore.d/psql
