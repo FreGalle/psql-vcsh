@@ -23,4 +23,6 @@ set intervalstyle to 'postgres_verbose';
 \setenv PAGER less
 \setenv LESS '-iMFXSx4R'
 
+\timing
+
 \unset QUIET
